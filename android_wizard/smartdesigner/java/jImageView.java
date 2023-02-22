@@ -1022,7 +1022,7 @@ public class jImageView extends ImageView { //androidx.appcompat.widget.AppCompa
 	}
 
 	//https://stackoverflow.com/questions/2459916/how-to-make-an-imageview-with-rounded-corners  [7]
-	public void SetRoundCorner(int _cornersRadius) {
+	public void SetRoundCorner(final int _cornersRadius) {
 		ViewOutlineProvider provider;
 		if (android.os.Build.VERSION.SDK_INT >= 21) {
 			//[ifdef_api21up]
