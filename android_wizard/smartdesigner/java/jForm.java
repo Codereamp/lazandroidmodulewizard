@@ -816,8 +816,8 @@ public class jForm {
             //Make sure the directory exists.
             if (_directory < 8) {
                 filePath.mkdirs();
-                absPath = filePath.getPath();
             }
+            absPath = filePath.getPath();
 
         } else {  //== 8
             if (Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED) == true) {
