@@ -549,7 +549,7 @@ Sending Data: Extras vs. URI Parameters
     }
 
     public String GetActionInstallPackageAsString() {
-        return "android.intent.ACTION_INSTALL_PACKAGE";
+        return "android.intent.action.INSTALL_PACKAGE";
     }
 
     public String GetActionDeleteAsString() {
@@ -586,7 +586,7 @@ Sending Data: Extras vs. URI Parameters
 	    case 20: mIntent.setAction(android.content.Intent.ACTION_WEB_SEARCH); break; 	    
 	    case 21: mIntent.setAction("android.intent.action.Main");break;
 	    case 22: mIntent.setAction("android.appwidget.action.APPWIDGET_UPDATE"); break;
-        case 23: mIntent.setAction("android.intent.ACTION_INSTALL_PACKAGE"); break;
+        case 23: mIntent.setAction("android.intent.action.INSTALL_PACKAGE"); break;
         case 24: mIntent.setAction("android.intent.action.DELETE"); break;
         case 25: // Requires API level 26
         	     if( android.os.Build.VERSION.SDK_INT >= 26 )
